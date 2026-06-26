@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "regions": ["fra1"],
+  "rewrites": [
+    { "source": "/api/v3/:path*", "destination": "/api/proxy" }
+  ],
+  "functions": {
+    "api/proxy.js": {
+      "memory": 512,
+      "maxDuration": 30
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "binance-trading-proxy",
+  "version": "1.0.0",
+  "description": "Binance API proxy for authenticated trading requests — deployed on Vercel",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {}
+}
